@@ -10,9 +10,11 @@
 	<link rel="icon" href="favicon.ico" type="image/png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/themes/indigo-white.css">
 	<!-- <link rel="stylesheet" href="css/themes/green-white.css"> -->
 	<!-- <link rel="stylesheet" href="css/themes/red-white.css"> -->
@@ -31,10 +33,10 @@
 			<a href="#" class="open btn"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 		</div>
 		<main>
-			<div class="intro">Hello, I'm Aditya!</div>
-			<div class="tagline">Full Stack Developer | Python Enthusiast | Master's in Software Engineering | ENJF</div>
+			<div class="intro wow fadeInDown">Hello, I'm Aditya!</div>
+			<div class="tagline wow fadeInDown">Full Stack Developer | Python Enthusiast | Master's in Software Engineering | ENFJ</div>
 			<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
-			<div class="icons-social">
+			<div class="icons-social wow fadeInDown">
 				<a target="_blank" href="https://twitter.com/ADoshatti"><i class="fab fa-twitter animate-icons"></i></a>
 				<a target="_blank" href="https://github.com/aditya-doshatti"><i class="fab fa-github animate-icons"></i></a>
 				<a target="_blank" href="https://www.linkedin.com/in/aditya-doshatti"><i class="fab fa-linkedin animate-icons"></i></a>
@@ -42,11 +44,35 @@
 		</main>
 	</div>
 	<div class="slide-down-page">
+		<about>
+			<div class="intro">About</div>
+			<div class="text">
+				<p>
+					I love python, and have worked with C++, Java and JS as well
+				</p> </br>
+				<p>
+					Worked with Veritas as Associate Software Developer working on various technologies like Oracle, MS SQL Server, AWS, Docker, 
+					Kubernets in an Agile environment having CICD using Jenkins and automation testing using Robot Framework
+				</p> </br>
+				<p>
+					I have done projects using Multi Party Computing, Machine Learning, UDP Hole Punching </br>
+					UI technologies like React JS and Backend with Python Flask APIs and Django and Database like MongoDB, My SQL
+				</p> </br>
+				<p>
+					I consider myself as result oriented, dependable, trainable and capable developer.
+					I do not shy away from responsibilities and I believe I can contribute a lot to work done by the company.
+				</p>
+			</div>
+		</about>
 		<div class="circle circle-down">
 			<a href="#" class="close btn"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="scripts.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
 </body>
 </html>
